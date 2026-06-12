@@ -1,16 +1,21 @@
-# CV Fraud Detection and Skill Ranking System
+MIT License
 
-This project combines fraud detection and skill ranking for profiles using a single input CSV file. It performs the following tasks:
+Copyright (c) 2024 sid0nair
 
-- **Fraud Detection:** Identifies fraudulent profiles based on risk factors using a BiLSTM Autoencoder.
-- **Skill Extraction and Ranking:** Extracts, normalizes, and ranks skills from profile data. Fraudulent profiles have their skill scores set to zero.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-## Requirements
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-- **Python** 3.6 or later
-- **Libraries:**
-
-  To install the required libraries, run:
-  ```bash
-  pip install pandas numpy scikit-learn tensorflow matplotlib networkx textblob spacy seaborn python-louvain
-  python -m spacy download en_core_web_sm
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
